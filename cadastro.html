@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastros</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+
+    /* form{
+
+    height: 600px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px;
+    background-color: #a4a4a4;
+    width: 700px;
+    color: #000
+    
+} */
+    </style>
+</head>
+<body>
+    <main>
+        <form>
+            <h1 class="div">Dados Pessoais</h1>
+        <div class="linha">
+            <div class="coluna">
+                <label for="camponome">Nome</label>
+                <input type="text" id="camponome" name="camponome" required placeholder="Insira seu nome aqui...">
+            </div>
+
+            <div class="coluna">
+                <label for="camposobre">Sobrenome</label>
+                <input type="text" id="camposobre" name="camposobre" required placeholder="Insira seu sobrenome aqui...">
+            </div>
+        </div>
+        <div class="linha">
+            <div class="coluna">
+                <label for="campoemail">E-Mail</label>
+                <input type="email" id="campoemail" name="campoemail" required placeholder="nome@gmail.com">
+            </div>      
+            <div class="coluna">
+                <label for="campotel">Telefone</label>
+                <input type="tel" id="campotel" name="campotel" maxlength="13" required placeholder="(00) 000000000">
+            </div>
+        </div>
+        <div class="linha">
+            <div class="coluna">
+                <label for="camposenha">Senha</label>
+                <input type="password" id="camposenha" name="camposenha" minlength="6" maxlength="8" required placeholder="*********">
+            </div>
+
+            <div class="coluna">
+                <label for="campoconfirmasenha">Confirme sua Senha</label>
+                <input type="password" id="campoconfirmasenha" name="campoconfirmasenha" minlength="6" maxlength="8" required placeholder="*********">
+            </div>
+        </div>
+            <input type="submit" value="CADASTRAR" name="cadastrar" class="botao azul">
+        </form>
+    </main>
+</body>
+</html>
+ 
